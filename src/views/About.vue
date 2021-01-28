@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+	<div class="about">
+		<h1>This is an about page</h1>
+		<CssFireworks></CssFireworks>
+	</div>
 </template>
+<script>
+import CssFireworks from "@/components/CssDemo.vue";
+export default {
+	components: {
+		CssFireworks,
+	},
+	data() {
+		return {};
+	},
+};
+</script>
