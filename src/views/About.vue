@@ -5,7 +5,7 @@
 	</div>
 </template>
 <script>
-import CssFireworks from "@/components/CssDemo.vue";
+import CssFireworks from "@/components/CssFireworks.vue";
 export default {
 	components: {
 		CssFireworks,
